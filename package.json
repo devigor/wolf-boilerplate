@@ -1,0 +1,33 @@
+{
+  "name": "wolf-boilerplate",
+  "version": "0.1.0",
+  "description": "Boilerplate for quick start new projects",
+  "main": "index.js",
+  "repository": "https://github.com/devigor/wolf-boilerplate",
+  "author": "Igor Oliveira <devigor.tere@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn install && yarn dev",
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "lint": "yarn lint:js && yarn lint:css",
+    "lint:js": "./node_modules/.bin/eslint ./src/",
+    "lint:css": "./node_modules/.bin/stylint ./src/"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
+    "eslint": "^3.19.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-stylus": "^2.6.0",
+    "gulp-svgmin": "^1.2.3",
+    "gulp-uglify": "^2.1.2",
+    "stylelint": "^7.10.1"
+  }
+}
