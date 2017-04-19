@@ -4,7 +4,6 @@
 
 # Wolf Boilerplate
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](./LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/cdnjs/cdnjs.svg)](https://github.com/devigor/wolf-boilerplate/graphs/contributors)
 
 Project Technologies
   - Pug
@@ -18,6 +17,7 @@ Project Technologies
   # Clone this repo
   $ git clone https://github.com/devigor/wolf-boilerplate/ 
   $ cd wolf-boilerplate
+  $ tm -rf .git // Delete .git 
   
   # Install Gulp Globally
   $ [sudo] npm install -g gulp
@@ -25,8 +25,10 @@ Project Technologies
   # Install dependencies
   $ npm install
   
-  # Commands 
-  $ npm run dev // Development Mode
-  $ npm run build // Production Mode
-  
-  
+  # Commands
+  $ yarn start or npm start // Preparing setup
+  $ yarn dev or npm run dev // Development Mode
+  $ yarn build or npm run build // Production Mode
+  $ yarn lint or npm run lint // ESLint and Stylelint
+  $ yarn lint:js or npm run lint:js // ESlint
+  $ yarn lint:css or npm run lint:css // Stylelint
