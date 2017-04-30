@@ -17,8 +17,8 @@ Project Technologies
   # Clone this repo
   $ git clone https://github.com/devigor/wolf-boilerplate/ 
   $ cd wolf-boilerplate
-  $ tm -rf .git // Delete .git 
-  
+  $ tm -rf .git // Delete .git // Para quem usa windows exclua direto da pasta clonada
+
   # Install Gulp Globally
   $ [sudo] npm install -g gulp
   
