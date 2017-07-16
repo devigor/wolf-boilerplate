@@ -1,6 +1,6 @@
 {
   "name": "wolf-boilerplate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Boilerplate for quick start new projects",
   "main": "index.js",
   "repository": "https://github.com/devigor/wolf-boilerplate",
@@ -19,6 +19,8 @@
     "browser-sync": "^2.18.8",
     "del": "^2.2.2",
     "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-babel": "^6.1.2",

@@ -32,3 +32,26 @@ Project Technologies
   $ yarn lint or npm run lint // ESLint and Stylelint
   $ yarn lint:js or npm run lint:js // ESlint
   $ yarn lint:css or npm run lint:css // Stylelint
+
+## Paths
+```
+├── src
+│   ├── index.pug
+│   ├── js
+│   │   └── main.js
+│   └── styl
+│       ├── components
+│       │   └── button.styl
+│       ├── _core
+│       │   ├── reset.styl
+│       │   └── variables.styl
+│       ├── helpers
+│       │   └── functions.styl
+│       ├── main.styl
+│       └── pages
+│           └── index.styl
+├── package.json
+├── package-lock.json
+├── README.md
+└── yarn.lock
+```
