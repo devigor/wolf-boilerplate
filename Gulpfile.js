@@ -13,6 +13,7 @@ const browserSync               = require('browser-sync');
 const devFiles = {
     pug: './src/*.pug',
     stylus: './src/styl/**/*.styl',
+    styl: './src/styl/*.styl',
     img: './src/img/*.png',
     svg: './src/img/svg/*.svg',
     js: './src/js/**/*.js'
@@ -48,7 +49,7 @@ gulp.task('html', () => {
 })
 
 gulp.task('css', () => {
-    return gulp.src(devFiles.stylus)
+    return gulp.src(devFiles.styl)
            .pipe(stylus())
            .pipe(gulp.dest(buildFiles.css));
 })
