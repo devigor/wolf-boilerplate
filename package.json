@@ -10,7 +10,7 @@
     "start": "yarn install && yarn dev",
     "dev": "gulp dev",
     "build": "gulp build",
-    "lint": "yarn lint:js && yarn lint:css",
+    "lint": "yarn lint:js",
     "lint:js": "./node_modules/.bin/eslint ./src/"
   },
   "devDependencies": {
