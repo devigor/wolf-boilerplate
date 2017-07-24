@@ -11,8 +11,7 @@
     "dev": "gulp dev",
     "build": "gulp build",
     "lint": "yarn lint:js && yarn lint:css",
-    "lint:js": "./node_modules/.bin/eslint ./src/",
-    "lint:css": "./node_modules/.bin/stylelint ./src/"
+    "lint:js": "./node_modules/.bin/eslint ./src/"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.24.1",
@@ -29,7 +28,6 @@
     "gulp-pug": "^3.3.0",
     "gulp-stylus": "^2.6.0",
     "gulp-svgmin": "^1.2.3",
-    "gulp-uglify": "^2.1.2",
-    "stylelint": "^7.10.1"
+    "gulp-uglify": "^2.1.2"
   }
 }
